@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar'
+import diamondLogo from "./Diamond.svg"
+import headShot from "./portrait-young-handsome-hipster-man-600w-674194966.png"
+import MacWindow from "./MacWindow";
+import Intro from "./Intro";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{width: '100vw'}} className="App">
+      <NavBar />
+      <Intro />
+      <div className={'flex-row bg-[#2E2F32] p-4'}>
+        <MacWindow />
+      </div>
     </div>
   );
 }
