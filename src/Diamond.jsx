@@ -2,61 +2,114 @@ import React from "react";
 
 const Diamond = () => {
     return (
-        <svg width="694" height="694" viewBox="0 0 694 694" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g className={"diamondLogo"} filter="url(#filter0_d_10_60)">
-                <rect x="90.7868" y="347" width="362.34" height="362.34" transform="rotate(-45 90.7868 347)" stroke="url(#paint0_linear_10_60)" strokeWidth="30" shapeRendering="crispEdges"/>
-            </g>
-            <g className={"diamondLogo"} filter="url(#filter1_d_10_60)">
-                <rect x="49.7868" y="346.563" width="419.706" height="419.706" transform="rotate(-45 49.7868 346.563)" stroke="url(#paint1_linear_10_60)" strokeWidth="30" shapeRendering="crispEdges"/>
-            </g>
-            <g className={"diamondLogo"} filter="url(#filter2_d_10_60)">
-                <rect x="29.5858" y="347" width="448.891" height="448.891" transform="rotate(-45 29.5858 347)" stroke="url(#paint2_linear_10_60)" strokeWidth="2" shapeRendering="crispEdges"/>
-            </g>
-            <defs>
-                <filter id="filter0_d_10_60" x="41.5736" y="41.5736" width="610.853" height="610.853" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                    <feOffset/>
-                    <feGaussianBlur stdDeviation="14"/>
-                    <feComposite in2="hardAlpha" operator="out"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0.481059 0 0 0 0 0.954167 0 0 0 0 0.782401 0 0 0 0.3 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_10_60"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_10_60" result="shape"/>
-                </filter>
-                <filter id="filter1_d_10_60" x="0.573608" y="0.573547" width="691.98" height="691.98" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                    <feOffset/>
-                    <feGaussianBlur stdDeviation="14"/>
-                    <feComposite in2="hardAlpha" operator="out"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0.481059 0 0 0 0 0.954167 0 0 0 0 0.782401 0 0 0 0.24 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_10_60"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_10_60" result="shape"/>
-                </filter>
-                <filter id="filter2_d_10_60" x="0.171631" y="0.17157" width="693.657" height="693.657" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                    <feOffset/>
-                    <feGaussianBlur stdDeviation="14"/>
-                    <feComposite in2="hardAlpha" operator="out"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0.481059 0 0 0 0 0.954167 0 0 0 0 0.782401 0 0 0 0.24 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_10_60"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_10_60" result="shape"/>
-                </filter>
-                <linearGradient id="paint0_linear_10_60" x1="444.264" y1="347.077" x2="112" y2="679.34" gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#4BD6A4"/>
-                    <stop offset="0.948579" stopOpacity="0"/>
-                </linearGradient>
-                <linearGradient id="paint1_linear_10_60" x1="460.616" y1="346.653" x2="71" y2="736.269" gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#53FFC1"/>
-                    <stop offset="0.948579" stopOpacity="0"/>
-                </linearGradient>
-                <linearGradient id="paint2_linear_10_60" x1="477.789" y1="347.103" x2="31.0001" y2="793.891" gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#C9FAE800"/>
-                    <stop offset="0.948579" stopColor="#11F0A0" stopOpacity="0"/>
-                </linearGradient>
-            </defs>
-        </svg>
+        <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="693"
+      height="693"
+      fill="none"
+      viewBox="0 0 693 693"
+    >
+      <g className={"diamondLogo"} filter="url(#filter0_d_36_71)">
+        <path
+          stroke="url(#paint0_linear_36_71)"
+          strokeWidth="30"
+          d="M347 601.213H707.9259999999999V962.1389999999999H347z"
+          shapeRendering="crispEdges"
+          transform="rotate(-135 347 601.213)"
+        ></path>
+      </g>
+      <g className={"diamondLogo"} filter="url(#filter1_d_36_71)">
+        <path
+          stroke="url(#paint1_linear_36_71)"
+          strokeWidth="30"
+          d="M346.563 643.213H766.269V1062.9189999999999H346.563z"
+          shapeRendering="crispEdges"
+          transform="rotate(-135 346.563 643.213)"
+        ></path>
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_36_71"
+          width="608.853"
+          height="608.853"
+          x="42.574"
+          y="41.574"
+          colorInterpolationFilters="sRGB"
+          filterUnits="userSpaceOnUse"
+        >
+          <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
+          <feColorMatrix
+            in="SourceAlpha"
+            result="hardAlpha"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          ></feColorMatrix>
+          <feOffset></feOffset>
+          <feGaussianBlur stdDeviation="14"></feGaussianBlur>
+          <feComposite in2="hardAlpha" operator="out"></feComposite>
+          <feColorMatrix values="0 0 0 0 0.481059 0 0 0 0 0.954167 0 0 0 0 0.782401 0 0 0 0.3 0"></feColorMatrix>
+          <feBlend
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_36_71"
+          ></feBlend>
+          <feBlend
+            in="SourceGraphic"
+            in2="effect1_dropShadow_36_71"
+            result="shape"
+          ></feBlend>
+        </filter>
+        <filter
+          id="filter1_d_36_71"
+          width="691.979"
+          height="691.98"
+          x="0.574"
+          y="0.447"
+          colorInterpolationFilters="sRGB"
+          filterUnits="userSpaceOnUse"
+        >
+          <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
+          <feColorMatrix
+            in="SourceAlpha"
+            result="hardAlpha"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          ></feColorMatrix>
+          <feOffset></feOffset>
+          <feGaussianBlur stdDeviation="14"></feGaussianBlur>
+          <feComposite in2="hardAlpha" operator="out"></feComposite>
+          <feColorMatrix values="0 0 0 0 0.481059 0 0 0 0 0.954167 0 0 0 0 0.782401 0 0 0 0.24 0"></feColorMatrix>
+          <feBlend
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_36_71"
+          ></feBlend>
+          <feBlend
+            in="SourceGraphic"
+            in2="effect1_dropShadow_36_71"
+            result="shape"
+          ></feBlend>
+        </filter>
+        <linearGradient
+          id="paint0_linear_36_71"
+          x1="677.926"
+          x2="287.152"
+          y1="910.926"
+          y2="520.152"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#4BD6A4"></stop>
+          <stop offset="0.949" stopOpacity="0"></stop>
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_36_71"
+          x1="762.387"
+          x2="266.004"
+          y1="1038.44"
+          y2="542.046"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#53FFC1"></stop>
+          <stop offset="0.949" stopOpacity="0"></stop>
+        </linearGradient>
+      </defs>
+    </svg>
 
     )
 }
