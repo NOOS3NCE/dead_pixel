@@ -1,7 +1,7 @@
 import React from "react";
 import deadLogo from "./DEADPIXEL.DEV.svg"
 
-const NavBar = ({projectsCallback, homeCallback}) => {
+const NavBar = ({projectsCallback, homeCallback,contactCallback}) => {
 
     return (
         <div className={'fixed top-0 left-0 right-0 z-50 backdrop-blur-sm'}>
@@ -12,7 +12,7 @@ const NavBar = ({projectsCallback, homeCallback}) => {
                     <button className={'mx-2 text-white hover:text-[#D836BE] mx-10'} onClick={projectsCallback}>projects</button>
                     <button className={'mx-2 text-white hover:text-[#D836BE] mx-10'}>about</button>
                 </div>
-                <button className={'mx-2 bg-pink-600 rounded px-4 py-2 text-white'}>contact(me)</button>
+                <button className={'mx-2 bg-pink-600 rounded px-4 py-2 text-white'} onClick={contactCallback}>contact(me)</button>
             </div>
             <div className={'linerStroke pb-[1px] h-[1px]'}/>
         </div>
