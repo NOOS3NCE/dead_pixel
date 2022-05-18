@@ -8,14 +8,18 @@ import {useRef} from "react";
 
 function App() {
     const titleRef = useRef()
+    const homeRef = useRef()
 
     function handleBackClick() {
         titleRef.current.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest"})
     }
+    function handleHomeClick() {
+        homeRef.current.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest"})
+    }
   return (
     <div style={{width: '100vw'}} className="App">
-      <NavBar projectsCallback={handleBackClick} />
-      <Intro />
+      <NavBar projectsCallback={handleBackClick} homeCallback={handleHomeClick} />
+      <Intro innerRef={homeRef} />
       <div id={'macWindow'} className={'flex-row bg-[#2E2F32] p-4'}>
         <MacWindow innerRef={titleRef} />
       </div>

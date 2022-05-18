@@ -3,16 +3,17 @@ import headShot from "./profile_picture.png";
 import diamondLogo from "./Diamond.svg";
 import HexBackground from "./hexBackground";
 import Diamond from "./Diamond";
+import MacButtons from "./Mac Buttons.svg";
 
-const Intro = () => {
+const Intro = ({innerRef}) => {
     return (
         <>
-            <div className={'flex-column md:flex justify-between align-items-center lg:pl-10 lg:pr-10 lg:h-[100vh] relative overflow-hidden z-10 sm:w-[100vw] align-items-center'}>
+            <div ref={innerRef}  className={'flex-column md:flex justify-between align-items-center lg:pl-10 lg:pr-10 lg:h-[100vh] relative overflow-hidden z-10 sm:w-[100vw] align-items-center'}>
                 <div className={'absolute font-mono text-[20px] text-[#53FFC1] hidden m-0'}>
                     <p>halemikehale@gmail.com</p>
                     <div className={'min-w-[200px] max-h-[1px] bg-[#53FFC1] m-[14px]'}/>
                 </div>
-                <div className={'max-w-[600px] m-[auto] text-left lg:ml-[100px] font-mono text-[16px] text-white'}>
+                <div className={'max-w-[600px] m-[auto] text-left lg:ml-[100px] font-mono text-[16px] text-white p-2'}>
                     <div className={'animate-bg_draw p-4'}>
                         <p className={'animation-delay-1500 animate-slide opacity-0 text-[#D836BE] my-4'}>def introduce(self):</p>
                         <p className={'animation-delay-1500 animate-slide opacity-0 ml-5 my-4'}>Hello, I'm</p>
