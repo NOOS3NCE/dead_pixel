@@ -2,10 +2,10 @@ import React from "react";
 import MacButtons from "./Mac Buttons.svg"
 import wildorchid from "./wildorchid_screen_shot.png"
 
-const MacWindow = () => {
+const MacWindow = ({innerRef}) => {
     return (
         <>
-            <div className={'rounded-lg bg-[#232427] md:m-9 p-2 relative font-mono text-[16px] text-[#53FFC1] shadow-lg'}>
+            <div ref={innerRef} className={'rounded-lg bg-[#232427] md:m-9 p-2 relative font-mono text-[16px] text-[#53FFC1] shadow-lg'}>
                 <div className={'absolute top-0 left-0'}>
                     <img className={'m-3'} src={MacButtons} alt={'some buttons'}/>
                 </div>

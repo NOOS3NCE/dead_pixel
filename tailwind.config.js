@@ -66,7 +66,7 @@ module.exports = {
         zoom: 'zoom 1s ease-in-out forwards',
         slide: 'glitch_in 1s ease-in-out forwards',
         slide_slow: 'slide_in_slow 1s ease-in-out forwards',
-        bg_draw: 'bg_draw 2s ease-in-out forwards'
+        bg_draw: 'bg_draw 1s ease-in-out forwards'
       },
       colors: {
         'dp-light':'#2E2F32',

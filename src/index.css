@@ -21,11 +21,12 @@ code {
   animation-name: drawBackground;
   stroke-dashoffset: -200;
   stroke-dasharray: 200;
-  animation-duration: 6s;
+  animation-duration: 3s;
   animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
-  stroke-width: .2px;
+  stroke-width: .3px;
+  animation-delay: 1s;
 }
 
 @keyframes drawBackground {
@@ -62,4 +63,9 @@ code {
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+
+.navBG {
+  backdrop-filter: blur(16px);
+  backdrop-filter: brightness(60%);
 }

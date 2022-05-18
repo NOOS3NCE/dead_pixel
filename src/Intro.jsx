@@ -7,12 +7,12 @@ import Diamond from "./Diamond";
 const Intro = () => {
     return (
         <>
-            <div className={'flex-column md:flex justify-between align-items-center lg:pl-10 lg:pr-10 lg:h-[80vh] relative overflow-hidden z-10 sm:w-[100vw]'}>
+            <div className={'flex-column md:flex justify-between align-items-center lg:pl-10 lg:pr-10 lg:h-[100vh] relative overflow-hidden z-10 sm:w-[100vw] align-items-center'}>
                 <div className={'absolute font-mono text-[20px] text-[#53FFC1] hidden m-0'}>
                     <p>halemikehale@gmail.com</p>
                     <div className={'min-w-[200px] max-h-[1px] bg-[#53FFC1] m-[14px]'}/>
                 </div>
-                <div className={'max-w-[600px] height-[100vh] text-left lg:ml-[100px] mt-[5%] font-mono text-[16px] text-white flex-row'}>
+                <div className={'max-w-[600px] m-[auto] text-left lg:ml-[100px] font-mono text-[16px] text-white'}>
                     <div className={'animate-bg_draw p-4'}>
                         <p className={'animation-delay-1500 animate-slide opacity-0 text-[#D836BE] my-4'}>def introduce(self):</p>
                         <p className={'animation-delay-1500 animate-slide opacity-0 ml-5 my-4'}>Hello, I'm</p>
@@ -28,7 +28,7 @@ const Intro = () => {
                     </div>
                 </div>
                 {/*<img style={{'stroke-dasharray': 200}} className={'absolute scale-[3.0] right-0 origin-center rotate-90 opacity-30 z-0'} src={pattern} alt={'cyberpunk grid'}/>*/}
-                <div className={'absolute scale-[3.0] right-0 origin-center rotate-90 opacity-60 z-0'}>
+                <div className={'absolute scale-[3.0] right-[5vw] top-[25vh] origin-center rotate-90 opacity-60 z-0'}>
                     <HexBackground className={'animate-hexBackground'} />
                 </div>
             </div>
