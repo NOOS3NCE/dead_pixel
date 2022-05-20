@@ -43,6 +43,35 @@ module.exports = {
             left: '-800px'
           }
         },
+        glitch_in_mobile: {
+          '0%': {
+            opacity:'0%',
+          },
+          "70%": {
+            opacity:'0%',
+            left: '-50px'
+          },
+          "75%": {
+            opacity:'100%',
+            left: '-50px'
+          },
+          "79%": {
+            opacity: '100%',
+            left: '-50px'
+          },
+          "91%": {
+            opacity:'0%',
+            left: '-50px'
+          },
+          "95%": {
+            opacity:'100%',
+            left: '-50px'
+          },
+          '100%': {
+            opacity:'100%',
+            left: '-50px'
+          }
+        },
         slide_in_slow: {
           '0%': {
             opacity:'0%',
@@ -51,6 +80,16 @@ module.exports = {
           '100%': {
             opacity:'100%',
             left: '-600px'
+          }
+        },
+        slide_in_slow_mobile: {
+          '0%': {
+            opacity:'0%',
+            left: '100px'
+          },
+          '100%': {
+            opacity:'100%',
+            left: '-20px'
           }
         },
         zoom: {
@@ -65,7 +104,9 @@ module.exports = {
       animation: {
         zoom: 'zoom 1s ease-in-out forwards',
         slide: 'glitch_in 1s ease-in-out forwards',
+        slide_mobile: 'glitch_in_mobile 1s ease-in-out forwards',
         slide_slow: 'slide_in_slow 1s ease-in-out forwards',
+        slide_slow_mobile: 'slide_in_slow_mobile 1s ease-in-out forwards',
         bg_draw: 'bg_draw 1s ease-in-out forwards'
       },
       colors: {

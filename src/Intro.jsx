@@ -6,12 +6,12 @@ import Diamond from "./Diamond";
 const Intro = ({innerRef}) => {
     return (
         <>
-            <div ref={innerRef}  className={'flex-row md:flex justify-between align-items-center lg:pl-10 lg:pr-10 lg:h-[100vh] relative overflow-hidden z-10 sm:w-[100vw] align-items-center'}>
+            <div ref={innerRef}  className={'flex-col flex lg:flex-row justify-between align-items-center lg:pl-10 lg:pr-10 h-[100vh] relative overflow-hidden z-10 w-[100vw] align-items-center'}>
                 <div className={'absolute font-mono text-[20px] text-[#53FFC1] hidden m-0'}>
                     <p>halemikehale@gmail.com</p>
                     <div className={'min-w-[200px] max-h-[1px] bg-[#53FFC1] m-[14px]'}/>
                 </div>
-                <div className={'max-w-[600px] m-[auto] text-left lg:ml-[100px] font-mono text-[16px] text-white p-2'}>
+                <div className={'max-w-[600px] my-20 lg:my-[auto] text-left lg:ml-[100px] font-mono text-[16px] text-white p-2'}>
                     <div className={'animate-bg_draw p-4 flex-col justify-between align-items-center'}>
                         <p className={'animation-delay-1500 animate-slide opacity-0 text-[#D836BE] my-4'}>def introduce(self):</p>
                         <p className={'animation-delay-1500 animate-slide opacity-0 ml-5 my-4'}>Hello, I'm</p>
@@ -20,9 +20,9 @@ const Intro = ({innerRef}) => {
                         <button className={'animation-delay-1500 animate-slide opacity-0 mx-2 bg-pink-600 rounded px-6 py-4 mt-10 text-white'}>contact(me)</button>
                     </div>
                 </div>
-                <div className={'static flex flex-col justify-center align-center object-contain relative'}>
-                    <img className={'animation-delay-1000 animate-slide_slow opacity-0 absolute bottom-20 lg:bottom-[100px] scale-[2.2] max-w-[280px] z-20'} src={headShot} alt={"its me"}/>
-                    <div  className={'animation-delay-1000 animate-slide opacity-0 absolute bottom-0 sm:max-w-[400px] lg:max-w-[800px] z-10'}>
+                <div className={'flex flex-col justify-center align-center object-contain relative'}>
+                    <img className={'animation-delay-1000 animate-slide_slow_mobile lg:animate-slide_slow opacity-0 absolute bottom-0 lg:bottom-[100px] lg:scale-[2.2] max-w-[280px] z-20 ml-20 lg:ml-0'} src={headShot} alt={"its me"}/>
+                    <div  className={'animation-delay-1000 animate-slide_mobile lg:animate-slide opacity-0 absolute bottom-[-25vh] lg:top-[20vh] scale-[.6] lg:scale-[1.2] max-w-[200px] lg:max-w-[800px] z-10'}>
                         <Diamond className={'animate-diamondLogo'}/>
                     </div>
                 </div>
