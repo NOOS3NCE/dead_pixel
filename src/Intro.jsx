@@ -22,7 +22,7 @@ const Intro = ({innerRef}) => {
                 </div>
                 <div className={'flex flex-col justify-center align-center object-contain relative'}>
                     <img className={'animation-delay-1000 animate-slide_slow_mobile lg:animate-slide_slow opacity-0 absolute bottom-0 lg:bottom-[100px] lg:scale-[2.2] max-w-[280px] z-20 ml-20 lg:ml-0'} src={headShot} alt={"its me"}/>
-                    <div  className={'animation-delay-1000 animate-slide_mobile lg:animate-slide opacity-0 absolute bottom-[-25vh] lg:top-[20vh] scale-[.6] lg:scale-[1.2] max-w-[200px] lg:max-w-[800px] z-10'}>
+                    <div  className={'animation-delay-1000 animate-slide_mobile lg:animate-slide opacity-0 absolute bottom-[-25vh] lg:top-[40vh] scale-[.6] lg:scale-[1.2] max-w-[200px] lg:max-w-[800px] z-10'}>
                         <Diamond className={'animate-diamondLogo'}/>
                     </div>
                 </div>
