@@ -92,13 +92,23 @@ module.exports = {
             left: '-20px'
           }
         },
+        slide_in_right: {
+          '0%': {
+            opacity:'0%',
+            left: '-1000px',
+          },
+          '100%': {
+            opacity:'100%',
+            left: '0px',
+          }
+        },
         zoom: {
           '0%': {
           transform: 'scale(1.0)'
-        },
-        '50%': {
-        transform: 'scale(1.1)'
-      }
+          },
+          '50%': {
+          transform: 'scale(1.1)'
+          }
         }
       },
       animation: {
@@ -107,7 +117,8 @@ module.exports = {
         slide_mobile: 'glitch_in_mobile 1s ease-in-out forwards',
         slide_slow: 'slide_in_slow 1s ease-in-out forwards',
         slide_slow_mobile: 'slide_in_slow_mobile 1s ease-in-out forwards',
-        bg_draw: 'bg_draw 1s ease-in-out forwards'
+        bg_draw: 'bg_draw 1s ease-in-out forwards',
+        slide_right: 'slide_in_right .5s linear forwards'
       },
       colors: {
         'dp-light':'#2E2F32',

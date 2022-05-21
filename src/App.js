@@ -24,7 +24,7 @@ function App() {
   return (
     <div style={{width: '100vw'}} className="App">
       <NavBar projectsCallback={handleBackClick} homeCallback={handleHomeClick} contactCallback={handleContactClick} />
-      <Intro innerRef={homeRef} />
+      <Intro innerRef={homeRef} contactCallback={handleContactClick} />
       <div id={'macWindow'} className={'flex-row bg-[#2E2F32] p-4'}>
         <MacWindow innerRef={titleRef} />
       </div>

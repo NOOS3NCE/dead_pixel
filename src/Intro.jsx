@@ -1,9 +1,9 @@
 import React from "react";
 import headShot from "./profile_picture.png";
 import HexBackground from "./hexBackground";
-import Diamond from "./Diamond";
+import Diamond from "./Diamond"
 
-const Intro = ({innerRef}) => {
+const Intro = ({innerRef, contactCallback}) => {
     return (
         <>
             <div ref={innerRef}  className={'flex-col flex lg:flex-row justify-between align-items-center lg:pl-10 lg:pr-10 h-[100vh] relative overflow-hidden z-10 w-[100vw] align-items-center'}>
@@ -11,13 +11,13 @@ const Intro = ({innerRef}) => {
                     <p>halemikehale@gmail.com</p>
                     <div className={'min-w-[200px] max-h-[1px] bg-[#53FFC1] m-[14px]'}/>
                 </div>
-                <div className={'max-w-[600px] my-20 lg:my-[auto] text-left lg:ml-[100px] font-mono text-[16px] text-white p-2'}>
-                    <div className={'animate-bg_draw p-4 flex-col justify-between align-items-center'}>
-                        <p className={'animation-delay-1500 animate-slide opacity-0 text-[#D836BE] my-4'}>def introduce(self):</p>
-                        <p className={'animation-delay-1500 animate-slide opacity-0 ml-5 my-4'}>Hello, I'm</p>
-                        <p className={'animation-delay-1500 animate-slide opacity-0 text-[#53FFC1] font-bold ml-5 text-[80px] font-[Impact] leading-[70px]'}>Michael Cummings</p>
-                        <p className={'animation-delay-1500 animate-slide opacity-0 ml-5 mt-10 text-[16px]'}>I am a front end software engineer, and I am always looking for opportunities to grow personally and professionally. Also I like to make cool shit.</p>
-                        <button className={'animation-delay-1500 animate-slide opacity-0 mx-2 bg-pink-600 rounded px-6 py-4 mt-10 text-white'}>contact(me)</button>
+                <div id={'introCard'} className={'max-w-[600px] my-20 lg:my-[auto] text-left lg:ml-[100px] font-mono text-[16px] text-white p-2'}>
+                    <div className={'p-4 flex-col justify-between align-items-center'}>
+                        <p className={'typewriter text-[#D836BE] my-4 max-w-[255px]'}>def introduce(self):</p>
+                        <p className={'animation-delay-1200 relative animate-slide_right opacity-0 ml-5 my-4'}>Hello, I'm</p>
+                        <p className={'animation-delay-1300 relative animate-slide_right opacity-0 text-[#53FFC1] font-bold ml-5 text-[80px] font-[Geo] font-bold leading-[70px]'}>Michael Cummings</p>
+                        <p className={'animation-delay-1400 relative animate-slide_right opacity-0 ml-5 mt-10 text-[16px]'}>I am a front end software engineer, and I am always looking for opportunities to grow personally and professionally. Also I like to make cool shit.</p>
+                        <button className={'animation-delay-1500 relative animate-slide_right opacity-0 mx-2 bg-pink-600 rounded px-6 py-4 mt-10 text-white'}onClick={contactCallback}>contact(me)</button>
                     </div>
                 </div>
                 <div className={'flex flex-col justify-center align-center object-contain relative'}>
